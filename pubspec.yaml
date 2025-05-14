@@ -1,4 +1,4 @@
-name: template_workspace
+name: sample
 environment:
   sdk: ^3.6.0
 
@@ -17,11 +17,6 @@ workspace:
   - packages/features/force_update
   - packages/features/maintain
   - packages/features/setting
-
-  # samples
-  - packages/samples/github_repository
-  - samples/github_app
-  - samples/webview
   # utils
   - packages/utils/pagination
 
